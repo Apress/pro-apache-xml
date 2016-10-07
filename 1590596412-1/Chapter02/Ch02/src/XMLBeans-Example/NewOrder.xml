@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apac:Orders xmlns:apac="http://www.apress.com/apacheXML">
+  <apac:Customer ID="C005">
+    <apac:StockSymbol>
+      GE
+      <apac:Quantity>200</apac:Quantity>
+      <apac:TradeType>B</apac:TradeType>
+    </apac:StockSymbol>
+  </apac:Customer>
+</apac:Orders>

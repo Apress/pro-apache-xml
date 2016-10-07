@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<scrip date='01132005'>
+
+<Quote ID="1">
+ 
+<scripcode>MSFT</scripcode>
+<open>23.23</open>
+<high>35.12</high>
+<low>17.31</low>
+<close>24.63</close>
+<volume>450334</volume>
+</Quote>
+
+<Quote ID="2">
+<scripcode>IBM</scripcode>
+<open>27.91</open>
+<high>31.00</high>
+<low>13.81</low>
+<close>24.31</close>
+<volume>45215</volume>
+</Quote>
+
+
+<Quote ID="3">
+<scripcode>IKJ</scripcode>
+<open>27.17</open>
+<high>35.53</high>
+<low>21.46</low>
+<close>26.11</close>
+<volume>429485</volume>
+</Quote>
+
+
+<Quote ID="4">
+<scripcode>IKM</scripcode>
+<open>25.10</open>
+<high>34.34</high>
+<low>22.59</low>
+<close>26.30</close>
+<volume>487558</volume>
+</Quote>
+
+
+<Quote ID="5">
+<scripcode>IKL</scripcode>
+<open>27.00</open>
+<high>36.66</high>
+<low>17.77</low>
+<close>26.40</close>
+<volume>354675</volume>
+</Quote>
+
+<Quote ID="6">
+<scripcode>BAXPR</scripcode>
+<open>25.65</open>
+<high>35.35</high>
+<low>20.00</low>
+<close>25.15</close>
+<volume>348706</volume>
+</Quote>
+
+
+<Quote ID="7">
+<scripcode>ONEPRW</scripcode>
+<open>24.12</open>
+<high>35.44</high>
+<low>19.97</low>
+<close>25.67</close>
+<volume>775424</volume>
+</Quote>
+
+
+<Quote ID="8"> 
+<scripcode>BACPRW</scripcode>
+<open>26.01</open>
+<high>37.45</high>
+<low>19.65</low>
+<close>26.76</close>
+<volume>456841</volume>
+</Quote>
+
+
+<Quote ID="9">
+<scripcode>ABWPRA</scripcode>
+<open>25.14</open>
+<high>37.35</high>
+<low>22.54</low>
+<close>26.21</close>
+<volume>434951</volume>
+</Quote>
+
+ 
+<Quote ID="10">
+<scripcode>BGIPRT</scripcode>
+<open>26.42</open>
+<high>37.34</high>
+<low>21.80</low>
+<close>27.24</close>
+<volume>224348</volume>
+</Quote>
+
+
+<Quote ID="11">
+<scripcode>ILAPRT</scripcode>
+<open>25.10</open>
+<high>35.67</high>
+<low>18.66</low>
+<close>25.77</close>
+<volume>760571</volume>
+</Quote> 
+
+</scrip>      

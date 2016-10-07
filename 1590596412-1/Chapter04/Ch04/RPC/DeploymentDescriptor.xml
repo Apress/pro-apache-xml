@@ -1,0 +1,14 @@
+<isd:service xmlns:isd="http://xml.apache.org/xml-soap/deployment"
+             id="urn:QuoteService">
+  <isd:provider type="java"
+                scope="Application"
+                methods="getStockQuote">
+    <isd:java 
+      class="Apress.XMLBook.StockBroker.StockQuoteService" static="false"
+    />
+  </isd:provider>
+
+  <isd:faultListener>
+    org.apache.soap.server.DOMFaultListener
+  </isd:faultListener>
+</isd:service>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PurchaseOrder>
+  <PersonalComputer Type="Desktop">
+    <Price>
+      995
+    </Price>
+    <Quantity>
+      10
+    </Quantity>
+  </PersonalComputer>
+  <PersonalComputer Type="Portable">
+    <Price>
+      1295
+    </Price>
+    <Quantity>
+      5
+    </Quantity>
+  </PersonalComputer>
+  <Scanner Type="Desktop">
+    <Price>
+      165
+    </Price>
+    <Quantity>
+      2
+    </Quantity>
+  </Scanner>
+  <Printer Type="Inkjet">
+    <Price>
+      85
+    </Price>
+    <Quantity>
+      4
+    </Quantity>
+  </Printer>
+  <Printer Type="LaserPrinter">
+    <Price>
+      485
+    </Price>
+    <Quantity>
+      1
+    </Quantity>
+  </Printer>
+</PurchaseOrder>

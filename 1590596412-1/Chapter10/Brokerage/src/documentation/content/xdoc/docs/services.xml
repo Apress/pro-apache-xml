@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <document>
+    <header>
+      <title>Services offered by us</title>
+     </header>
+    <body>
+       <section id="Services">
+        <title>Stock Trading</title>
+        <p>
+       Add description for stock trading services
+        </p >
+    </section>
+      <section id="portfolio">
+        <title>Personal portfolio management</title>
+        <p>
+          Add description for personal portfoio management service
+        </p >
+      </section>
+    </body >
+    </document> 

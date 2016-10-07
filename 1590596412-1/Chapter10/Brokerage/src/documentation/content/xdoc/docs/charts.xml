@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <document>
+    <header>
+      <title>Technical Charting</title>
+     </header>
+    <body>
+	<section>
+	<title>
+	Single Stock Charts</title></section>
+	<li>
+	<a href="/images/infosys.jpg">Infosys</a>
+	</li>
+	<li>
+	<a href="tcs.jpg">TCS</a>
+	</li>
+	<li>
+	<a href="/images/wipro.jpg">Wipro</a>
+	</li>
+	</body >
+    </document> 

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<customers date='01042006'>
+
+  <customer ID="1">
+    <name>Pat Irwin</name>
+    <order>MSFT</order>
+    <quantity>20</quantity>
+    <price>25.80</price>
+  </customer>
+
+  <customer ID="2">
+    <name>Nancy Scheffler</name>
+    <order>IBM</order>
+    <quantity>150</quantity>
+    <price>25.25</price>
+  </customer>
+
+  <customer ID="3">
+    <name>Cheryl Zuckschwerdt</name>
+    <order>IBM</order>
+    <quantity>150</quantity>
+    <price>25.20</price>
+  </customer>
+
+  <customer ID="4">
+    <name>Bennie Furlong</name>
+    <order>IBM</order>
+    <quantity>70</quantity>
+    <price>25.20</price>
+  </customer>
+
+  <customer ID="5">
+    <name>Buddy Swain</name>
+    <order>MSFT</order>
+    <quantity>100</quantity>
+    <price>25.85</price>
+  </customer>
+  
+  <customer ID="6">
+    <name>Buddy Swain</name>
+    <order>IBM</order>
+    <quantity>25</quantity>
+    <price>25.25</price>
+  </customer>
+  
+  <customer ID="7">
+    <name>John Weigert</name>
+    <order>IKJ</order>
+    <quantity>80</quantity>
+    <price>25.55</price>
+  </customer>
+  
+  <customer ID="8">
+      <name>John Weigert</name>
+      <order>IKJ</order>
+      <quantity>50</quantity>
+      <price>25.10</price>
+  </customer>
+
+  <customer ID="9">
+    <name>Marilia Oliver</name>
+    <order>IKL</order>
+    <quantity>25</quantity>
+    <price>25.50</price>
+  </customer>
+
+  <customer ID="10">
+    <name>Marilia Oliver</name>
+    <order>IKM</order>
+    <quantity>20</quantity>
+    <price>25.80</price>
+  </customer>
+
+  
+  <customer ID="11">
+    <name>Marilia Oliver</name>
+    <order>MSFT</order>
+    <quantity>75</quantity>
+    <price>25.85</price>
+  </customer>
+
+  <customer ID="12">
+    <name>Bennie Furlong</name>
+    <order>ONEPRW</order>
+    <quantity>112</quantity>
+    <price>25.31</price>
+  </customer>
+
+  <customer ID="13">
+    <name>Gay Garlid</name>
+    <order>BGIPRT</order>
+    <quantity>100</quantity>
+    <price>24.00</price>
+  </customer>
+
+  <customer ID="14">
+    <name>Gay Garlid</name>
+    <order>BAXPR</order>
+    <quantity>100</quantity>
+    <price>24.10</price>
+  </customer>
+
+  <customer ID="15">
+    <name>Gay Garlid</name>
+    <order>BAXPR</order>
+    <quantity>100</quantity>
+    <price>24.10</price>
+  </customer>
+
+  <customer ID="16">
+      <name>Deanna Hormel</name>
+      <order>ILAPRP</order>
+      <quantity>150</quantity>
+      <price>24.50</price>
+    </customer>
+  
+    <customer ID="17">
+      <name>Debra Concepcion</name>
+      <order>ABWPRA</order>
+      <quantity>100</quantity>
+      <price>25.00</price>
+    </customer>
+  
+    <customer ID="18">
+      <name>Henrine Heidelberg</name>
+      <order>BACPRW</order>
+      <quantity>100</quantity>
+      <price>26.10</price>
+    </customer>
+  
+    <customer ID="19">
+      <name>Ryan Naudi</name>
+      <order>BACPRW</order>
+      <quantity>125</quantity>
+      <price>26.10</price>
+    </customer>
+  
+    <customer ID="20">
+      <name>Doreen Matters</name>
+      <order>BACPRW</order>
+      <quantity>50</quantity>
+      <price>25.00</price>
+    </customer>
+    
+    <customer ID="21">
+      <name>Doreen Matters</name>
+      <order>MSFT</order>
+      <quantity>45</quantity>
+      <price>25.80</price>
+    </customer>
+
+    <customer ID="22">
+      <name>Doreen Matters</name>
+      <order>IBM</order>
+      <quantity>35</quantity>
+      <price>25.50</price>
+    </customer>
+
+</customers>

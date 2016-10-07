@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="Cover Page">
+	<fo:region-body/> 
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="Cover Page">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block 
+      	font-family="Helvetica" 
+      	font-size="36pt" 
+      	font-weight="bold" 
+      	space-before ="360pt" 
+      	text-align="center"
+        >
+        Stock Brokerage
+      </fo:block>
+      <fo:block 
+      	font-family="Times Roman" 
+      	font-size="24pt" 
+      	font-style="italic" 
+      	space-before ="12pt" 
+      	text-align="center"
+        >
+        Confidential Report
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

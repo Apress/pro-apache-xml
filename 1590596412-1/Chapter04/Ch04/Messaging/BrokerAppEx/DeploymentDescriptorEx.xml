@@ -1,0 +1,10 @@
+<isd:service xmlns:isd="http://xml.apache.org/xml-soap/deployment"
+             id="urn:po-processorEx" type="message">
+  <isd:provider type="java"
+                scope="Application"
+                methods="purchaseOrder">
+    <isd:java class="StockBroker.StockOrderProcessorEx" static="false"/>
+  </isd:provider>
+
+ <isd:faultListener>StockBroker.BrokerFaultHandler</isd:faultListener>
+</isd:service>

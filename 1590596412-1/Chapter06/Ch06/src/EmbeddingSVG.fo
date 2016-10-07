@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="Cover Page">
+      <fo:region-body/> 
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="Cover Page">
+    <fo:flow flow-name="xsl-region-body">
+
+  <fo:block xmlns:svg="http://www.w3.org/2000/svg" 
+    text-align="center"
+    space-before="15pt">
+    
+      <fo:instream-foreign-object 
+        content-width="6cm" 
+        content-height="6cm">
+
+          <svg:svg width="6cm" height="6cm" xml:space="preserve">
+            <svg:g style="fill:rgb(211,211,211);">
+              <svg:circle cx="100" cy="100" r="50"/>
+            </svg:g>
+            <svg:g style="fill:rgb(175,175,175);">
+              <svg:circle cx="100" cy="100" r="40"/>
+            </svg:g>
+            <svg:g style="fill:rgb(150,150,150);">
+              <svg:circle cx="100" cy="100" r="30"/>
+            </svg:g>
+            <svg:g style="fill:rgb(100,100,100);">
+              <svg:circle cx="100" cy="100" r="20"/>
+            </svg:g>
+            <svg:g style="fill:rgb(75,75,75);">
+              <svg:circle cx="100" cy="100" r="10"/>
+            </svg:g>
+
+          </svg:svg>
+      </fo:instream-foreign-object>
+            
+    </fo:block> 
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xsp:page language="java"
+xmlns:xsp="http://apache.org/xsp">
+  <xsp:structure>
+    <xsp:include>java.util.Calendar</xsp:include>
+    <xsp:include>java.text.*</xsp:include>
+  </xsp:structure>
+
+  <document>
+    <xsp:logic>
+      String stockName = request.getParameter("scrip").toString();
+      String msg = "Last Trade";
+      String price = "";
+      if (stockName.equals("IBM")) {
+      price = "$25.00";
+      }
+      else if (stockName.equals("MSFT")) {
+      price = "$35.00";
+      }
+      else {
+      price = "Unknown scrip!";
+      }
+      SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy hh:mm:ss");
+      String timestamp = format.format(java.util.Calendar.getInstance().getTime());
+    </xsp:logic>
+    <msg>
+      <xsp:expr>msg</xsp:expr>
+    </msg>
+    <stock>
+      <xsp:expr>stockName</xsp:expr>
+    </stock>
+    <price>
+      <xsp:expr>price</xsp:expr>
+    </price>
+    <time>
+      <xsp:expr>timestamp</xsp:expr>
+    </time>
+  </document>
+</xsp:page>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document> 
+  <header> 
+    <title>Welcome to StockBrokerage</title> 
+  </header> 
+  <body> 
+    <section id="intro">
+      <title>Introduction</title>
+      <p>You have logged on to the StockBrokerage Website.
+      We provide the latest updates on the stocks. 
+      </p>
+    </section>
+
+    <section id="quote">
+      <title>Technical Charting</title>
+      <p>
+        You can now obtain the technical charts of the traded stocks.
+      </p>
+    </section>
+     
+    <section id="order">
+      <title>Trade</title>
+        <p>
+         You may buy/sell stocks online using our user-friendly interface.
+        </p>
+    </section>
+    <note>   
+    <p>
+    <a href="docs/rules.txt">Click here</a> to read about rules and regulations
+    </p>
+    </note>
+  </body>
+</document>

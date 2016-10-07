@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  <para>
+    <h3>Date in different formats</h3>
+    <i18n:date-time pattern="short" locale="en_US"/>
+    <br/>
+    <i18n:date-time pattern="medium" locale="en_US"/>
+    <br/>
+    <i18n:date-time pattern="long" locale="en_US"/>
+    <br/>
+    <i18n:date-time pattern="FULL" locale="en_US"/>
+    <br/>
+    <h3>Different Locales</h3>
+    US Full Date:
+    <i18n:date-time pattern="FULL" locale="en_US"/><br/>
+    German Full Date:
+    <i18n:date-time pattern="FULL" locale="de_DE"/><br/>
+    India Full Date:
+    <i18n:date-time pattern="FULL" locale="hi_IN"/><br/>
+    Japan Full Date:
+    <i18n:date-time pattern="FULL" locale="ja_JP"/><br/>
+    China Full Date:
+    <i18n:date-time pattern="FULL" locale="zh_CN"/><br/>
+
+    US Currency:
+    <i18n:number type="currency" value="2501.9845"/><br/>
+    German Currency:
+    <i18n:number type="currency" currency="de_DE" value="2501.9845"/><br/>
+    Indian Currency:
+    <i18n:number type="currency" currency="hi_IN" value="2501.9845"/><br/>
+    Japan Currency:
+    <i18n:number type="currency" currency="ja_JP" value="2501.9845"/><br/>
+    China Currency:
+    <i18n:number type="currency" currency="zh_CN" value="2501.9845"/><br/>
+
+    US Number:
+    <i18n:number locale="en_US" value="10000000"/><br/>
+    German Number:
+    <i18n:number locale="de_DE" value="10000000"/><br/>
+    France Number:
+    <i18n:number locale="fr_FR" value="10000000"/><br/>
+
+  </para>
+</page>

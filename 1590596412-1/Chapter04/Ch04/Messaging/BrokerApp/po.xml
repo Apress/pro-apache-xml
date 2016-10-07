@@ -1,0 +1,16 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Body >
+<purchaseOrder xmlns="urn:po-processor" 
+               xmlns:NYSE="http://www.example.com/NYSE/Stocks/Tradeorder">
+    <NYSE:scrip>
+      MSFT
+    </NYSE:scrip>
+    <NYSE:quantity>
+      1000
+    </NYSE:quantity>
+    <NYSE:price>
+      25.25
+    </NYSE:price>
+</purchaseOrder>
+</s:Body>
+</s:Envelope>

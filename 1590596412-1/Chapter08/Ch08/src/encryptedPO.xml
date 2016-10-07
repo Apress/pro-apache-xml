@@ -1,0 +1,6 @@
+<PurchaseOrder><xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Content"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#kw-tripledes" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"/><xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"><xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">Colzu7pA/Y7iGH3CPEjR2Pm3rswu9nlgS4M3U4XHlH8=</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></ds:KeyInfo><xenc:CipherData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"><xenc:CipherValue xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">XfkEFgoHkJH0v6Daj+ZCgURJsOz/keRr4vmaF7ObFbITqLRv17foKXF6DyCPS7CoBZwnTFkx26Dh
+UgBFf7rD7r9YJfN9eDM/SVPnJg5KwH8RbPY3DpWaGoRU2Tesg6mg4TlPbqHHmX6il2E7uYnLJ0mv
+gT5HdtTKE77ZYbfBIZryDVyaCJKdjLu9Mb2Ehh6RbMvEgfQrojSAsWyOhp4x8nEEodVDrC/2b9DM
+Xcbav/J4Rj385D/JRGqZ5KrfQexQdHWIWq1rA1onN8yPPCR3un5LKJHYZFAPujHW2WiWYxBatuCW
+BmXNm2N0BiIFAoPcZlADyvbWi6HfuI14kLn1rw==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData></PurchaseOrder>

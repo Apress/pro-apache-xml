@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace = "http://www.apress.com/apacheXML"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Orders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Customer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="StockSymbol">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="Quantity" type="xs:unsignedByte" />
+                    <xs:element name="TradeType" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="ID" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsp:page language="java"
+    xmlns:xsp="http://apache.org/xsp"
+    xmlns:sendmail="http://apache.org/cocoon/sendmail/1.0">
+  <email>
+    <sendmail:send-mail>
+      <sendmail:from>sarang@abcom.com</sendmail:from>
+      <sendmail:to>sarang@abcom.com</sendmail:to>
+      <sendmail:subject>test</sendmail:subject>
+      <sendmail:body>my mail test</sendmail:body>
+
+      <sendmail:smtphost>192.168.100.50</sendmail:smtphost>
+
+      <sendmail:on-success>
+        <p>
+          Email successfully sent.
+        </p>
+      </sendmail:on-success>
+      <sendmail:on-error>
+        <p style="color:red;">
+          An error occurred: <sendmail:error-message/>
+        </p>
+      </sendmail:on-error>
+    </sendmail:send-mail>
+  </email>
+</xsp:page>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000802//EN"
+"http://www.w3.org/TR/2000/CR-SVG-20000802/DTD/svg-20000802.dtd">
+
+<svg width="100" height="100" xml:space="preserve">
+  <g style="fill:red; stroke:#000000">
+    <rect x="0" y="0" width="100" height="100"/>
+  </g>
+  <g style="fill:rgb(200,0,0); stroke:#000000">
+    <rect x="5" y="5" width="90" height="90"/>
+  </g>
+  <g style="fill:rgb(150,0,0); stroke:#000000">
+    <rect x="10" y="10" width="80" height="80"/>
+  </g>
+  <g style="fill:rgb(100,0,0); stroke:#000000">
+    <rect x="15" y="15" width="70" height="70"/>
+  </g>
+  <g style="fill:rgb(50,0,0); stroke:#000000">
+    <rect x="20" y="20" width="60" height="60"/>
+  </g>
+  <g style="fill:rgb(0,0,0); stroke:#000000">
+    <rect x="25" y="25" width="50" height="50"/>
+  </g>
+</svg>

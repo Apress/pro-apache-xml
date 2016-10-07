@@ -1,0 +1,125 @@
+<project name="XMLBeansExample" default="build">
+
+    <property environment="env"/>
+
+    <path id="XMLBeansExample.path">
+        <path refid="xmlbeans.path"/>
+        <fileset dir="build/lib" includes="*.jar"/>
+        <pathelement path="build/classes"/>
+    </path>
+
+    <target name="init">
+        <property name="xmlbeans.home" value="${env.XMLBEANS_HOME}"/>
+        <echo message="xmlbeans.home: ${xmlbeans.home}"/>
+
+        <!-- check for xbean.jar from binary distribution -->
+        <available
+            property="xmlbeans.lib"
+            value="${xmlbeans.home}/lib"
+            file="${xmlbeans.home}/lib/xbean.jar" />
+
+        <!-- check for xbean.jar compiled from source -->
+        <available
+            property="xmlbeans.lib"
+            value="${xmlbeans.home}/build/lib"
+            file="${xmlbeans.home}/build/lib/xbean.jar" />
+
+        <fail message="Set XMLBEANS_HOME in your enviornment."
+            unless="xmlbeans.lib"/>
+
+        <echo message="xmlbeans.lib: ${xmlbeans.lib}"/>
+        <path id="xmlbeans.path">
+            <fileset dir="${xmlbeans.lib}" includes="*.jar"/>
+        </path>
+
+        <taskdef name="xmlbean"
+            classname="org.apache.xmlbeans.impl.tool.XMLBean"
+            classpathref="xmlbeans.path"/>
+    </target>
+
+    <!-- ========================== clean ==== -->
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <!-- ========================== build ==== -->
+
+    <target name="build" depends="init,schemas.jar,XMLBeansExample.classes">
+    </target>
+
+    <target name="schemas.check">
+        <uptodate property="schemas.notRequired"
+            targetfile="build/lib/schemas.jar">
+            <srcfiles dir="schemas" includes="**/*.xsd"/>
+        </uptodate>
+    </target>
+
+    <target name="schemas.jar" depends="init,schemas.check"
+        unless="schemas.notRequired">
+        <mkdir dir="build/lib"/>
+
+        <xmlbean schema="schemas"
+            destfile="build/lib/schemas.jar"
+            srcgendir="build/src"
+            classpathref="xmlbeans.path"
+            debug="on"
+            />
+    </target>
+
+    <target name="XMLBeansExample.classes" depends="init">
+        <mkdir dir="build/classes"/>
+
+        <javac srcdir="src"
+            destdir="build/classes"
+            classpathref="XMLBeansExample.path"
+            debug="on"
+            source="1.5"
+            />
+    </target>
+
+    <!-- ========================== run ==== -->
+
+    <target name="run-1" depends="init,build">
+        <echo message="============================== running XMLBeansExample1"/>
+        <java
+            classname="apress.apacheXML.ch02.XMLBeansExample1"
+            classpathref="XMLBeansExample.path"
+            fork="true">
+            <arg line="xml/Orders.xml"/>
+        </java>
+    </target>
+
+    <target name="run-2" depends="init,build">
+        <echo message="============================== running XMLBeansExample2"/>
+        <java
+            classname="apress.apacheXML.ch02.XMLBeansExample2"
+            classpathref="XMLBeansExample.path"
+            fork="true">
+            <arg line="xml/Orders.xml"/>
+		<arg line="C003"/>
+        </java>
+    </target>
+
+    <target name="run-3" depends="init,build">
+        <echo message="============================== running XMLBeansExample3"/>
+        <java
+            classname="apress.apacheXML.ch02.XMLBeansExample3"
+            classpathref="XMLBeansExample.path"
+            fork="true">
+            <arg line="xml/Orders.xml"/>
+		<arg line="C003"/>
+        </java>
+    </target>
+
+    <target name="run-4" depends="init,build">
+        <echo message="============================== running XMLBeansExample4"/>
+        <java
+            classname="apress.apacheXML.ch02.XMLBeansExample4"
+            classpathref="XMLBeansExample.path"
+            fork="true">
+        </java>
+    </target>
+
+
+</project>

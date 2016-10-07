@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site label="StockBrokerage" href="" xmlns="http://apache.org/forrest/linkmap/1.0" tab="">
+  <About label="About">
+    <index label="Index" href="index.html" description="Welcome to StockBrokerage"/>
+    <services label="Services" href="docs/services.html" description="Services offered by us"/>
+    <companyinfo label="Company Info" href="docs/info.html" description="Company Information"/>
+  </About >
+  <external-refs>
+    <forrest href="http://forrest.apache.org/">
+    </forrest>
+  </external-refs>
+ </site>

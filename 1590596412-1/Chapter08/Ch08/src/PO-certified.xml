@@ -1,0 +1,57 @@
+<PurchaseOrder><signedContents>
+We request you to EXECUTE following trades
+<scrip>GFW</scrip><quantity>50</quantity><price>25.35</price><type>B</type><scrip>ABNPRF</scrip><quantity>100</quantity><price>24.83</price><type>S</type></signedContents><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>tzU/S/48B5eG+fzeNDtXEVNAiOU=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>hHb76hiSgMZwTKaZuQOlKKwkaO5kbSmD3UFEXwELrzu2p1qhz7qAjw==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDIzCCAuECBEPgThQwCwYHKoZIzjgEAwUAMHcxCzAJBgNVBAYTAklOMRQwEgYDVQQIEwtNYWhh
+cmFzaHRyYTEPMA0GA1UEBxMGTXVtYmFpMQ4wDAYDVQQKEwVBQkNPTTESMBAGA1UECxMJQXV0aG9y
+aW5nMR0wGwYDVQQDExRQb29ybmFjaGFuZHJhIFNhcmFuZzAeFw0wNjAyMDEwNTU4NDRaFw0wNjA1
+MDIwNTU4NDRaMHcxCzAJBgNVBAYTAklOMRQwEgYDVQQIEwtNYWhhcmFzaHRyYTEPMA0GA1UEBxMG
+TXVtYmFpMQ4wDAYDVQQKEwVBQkNPTTESMBAGA1UECxMJQXV0aG9yaW5nMR0wGwYDVQQDExRQb29y
+bmFjaGFuZHJhIFNhcmFuZzCCAbgwggEsBgcqhkjOOAQBMIIBHwKBgQD9f1OBHXUSKVLfSpwu7OTn
+9hG3UjzvRADDHj+AtlEmaUVdQCJR+1k9jVj6v8X1ujD2y5tVbNeBO4AdNG/yZmC3a5lQpaSfn+gE
+exAiwk+7qdf+t8Yb+DtX58aophUPBPuD9tPFHsMCNVQTWhaRMvZ1864rYdcq7/IiAxmd0UgBxwIV
+AJdgUI8VIwvMspK5gqLrhAvwWBz1AoGBAPfhoIXWmz3ey7yrXDa4V7l5lK+7+jrqgvlXTAs9B4Jn
+UVlXjrrUWU/mcQcQgYC0SRZxI+hMKBYTt88JMozIpuE8FnqLVHyNKOCjrh4rs6Z1kW6jfwv6ITVi
+8ftiegEkO8yk8b6oUZCJqIPf4VrlnwaSi2ZegHtVJWQBTDv+z0kqA4GFAAKBgQDfCQe9UlgB4/1k
+9gC9QqdwqTnJAzKQV+sCYkWWckmSL1LvTjcX37pv0TO6azdSWDfdpWAH99TkrbTmX2w0opuKSTGC
+DNrf+bbmiWZeLg/36Vnm4F3lFLXzKk25sWx45DzkpW8cEu7T5G/3uwAgRVmkrHTqVOD7ezbwytD0
+EAD0MDALBgcqhkjOOAQDBQADLwAwLAIUMKHnmQmz4pJT1T37I7mUb7KjhfYCFCU+b7suEeRGHQ1k
+7ZNeSllb2xs7
+</X509Certificate>
+</X509Data>
+<KeyValue>
+<DSAKeyValue>
+<P>
+/X9TgR11EilS30qcLuzk5/YRt1I870QAwx4/gLZRJmlFXUAiUftZPY1Y+r/F9bow9subVWzXgTuA
+HTRv8mZgt2uZUKWkn5/oBHsQIsJPu6nX/rfGG/g7V+fGqKYVDwT7g/bTxR7DAjVUE1oWkTL2dfOu
+K2HXKu/yIgMZndFIAcc=
+</P>
+<Q>l2BQjxUjC8yykrmCouuEC/BYHPU=</Q>
+<G>
+9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3
+zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKL
+Zl6Ae1UlZAFMO/7PSSo=
+</G>
+<Y>
+3wkHvVJYAeP9ZPYAvUKncKk5yQMykFfrAmJFlnJJki9S7043F9+6b9Ezums3Ulg33aVgB/fU5K20
+5l9sNKKbikkxggza3/m25olmXi4P9+lZ5uBd5RS18ypNubFseOQ85KVvHBLu0+Rv97sAIEVZpKx0
+6lTg+3s28MrQ9BAA9DA=
+</Y>
+</DSAKeyValue>
+</KeyValue>
+</KeyInfo>
+</Signature></PurchaseOrder>

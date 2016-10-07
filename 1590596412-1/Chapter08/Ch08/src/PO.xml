@@ -1,0 +1,32 @@
+<PurchaseOrder><signedContents>
+We request you to EXECUTE following trades
+<scrip>GFW</scrip><quantity>50</quantity><price>25.35</price><type>B</type><scrip>ABNPRF</scrip><quantity>100</quantity><price>24.83</price><type>S</type></signedContents><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>tzU/S/48B5eG+fzeNDtXEVNAiOU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LkO48xB2hCWyt0L2+PEIbhEK/PZKzO5+O+ACDaAqL6EwRcYlf+N10w/RpwTAApDZ2LUNvzK83kKV
+3K88QGJ2Jada3yJdImQxURM4EnQ4Ew/DnitM55mB/hPLYp0eWt0q6aAR+LGj9vl8pUmcdgL7SoUm
+10wnPzihND2LQV8CgJo=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+aXkuHNi/fAJyYUvE6ukWUwcPn211TmrMWq326EK6/w9GvgI2SZYMS11/AxWd/g3GiP7+qgOlHwft
+M5I1c/qZGMQxAsCOggYh/kj89UANPQ4Ec4IuukqG/1dOMSxVj0tJxmfexuTqrNi0OAG/jrauzsiI
+U3tx9HdOmDS8vIJOuv8=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></PurchaseOrder>

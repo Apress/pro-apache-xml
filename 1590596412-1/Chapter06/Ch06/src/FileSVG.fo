@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="Cover Page">
+	<fo:region-body/> 
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="Cover Page">
+    <fo:flow flow-name="xsl-region-body">
+      
+         <fo:block 
+            space-before ="12pt"
+            text-align="center">
+              Including SVG image
+          </fo:block>
+
+         <fo:block text-align="center">
+           <fo:external-graphic src="url(C:/Ch06/Graphics/boxes.svg)"/>
+         </fo:block>
+
+      
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

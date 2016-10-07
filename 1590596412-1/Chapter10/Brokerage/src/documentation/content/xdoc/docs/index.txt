@@ -1,0 +1,23 @@
+Welcome to StockBrokerage
+
+Table of Contents
+=================
+
+Introduction
+Greeting Live updates
+Trade
+
+
+Introduction
+============
+        You have logged on to the StockBrokerage Website. We provide the latest updates on the stocks. 
+
+Greeting Live updates
+=====================
+	You can now obtain the live updates to all the traded stocks. 
+
+Trade
+=====
+	You may buy/sell stocks online using our user-friendly interface.
+
+

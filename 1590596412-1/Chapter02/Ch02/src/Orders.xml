@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="C:\xmlbeans-2.0.0\test\Orders.xsd"
+>
+  <Customer ID="C001">
+    <StockSymbol>
+      MSFT
+      <Quantity>
+        200
+      </Quantity>
+      <TradeType>
+        B
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+  <Customer ID="C002">
+    <StockSymbol>
+      IBM
+      <Quantity>
+        50
+      </Quantity>
+      <TradeType>
+        S
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+  <Customer ID="C003">
+    <StockSymbol>
+      MSFT
+      <Quantity>
+        100
+      </Quantity>
+      <TradeType>
+        B
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+  <Customer ID="C004">
+    <StockSymbol>
+      MSFT
+      <Quantity>
+        150
+      </Quantity>
+      <TradeType>
+        B
+      </TradeType>
+    </StockSymbol>
+    <StockSymbol>
+      IBM
+      <Quantity>
+        150
+      </Quantity>
+      <TradeType>
+        S
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+  <Customer ID="C005">
+    <StockSymbol>
+      MSFT
+      <Quantity>
+        100
+      </Quantity>
+      <TradeType>
+        B
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+  <Customer ID="C006">
+    <StockSymbol>
+      MSFT
+      <Quantity>
+        50
+      </Quantity>
+      <TradeType>
+        S
+      </TradeType>
+    </StockSymbol>
+    <StockSymbol>
+      IBM
+      <Quantity>
+        50
+      </Quantity>
+      <TradeType>
+        S
+      </TradeType>
+    </StockSymbol>
+  </Customer>
+</Orders>
